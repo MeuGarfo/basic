@@ -1,0 +1,30 @@
+<IfModule mod_rewrite.c>
+# redireciona tudo para o index.php
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+#desabilida a listagem de arquivos
+Options -Indexes
+
+#mensagens de erro
+ErrorDocument 403 /index.php
+ErrorDocument 404 /index.php
+ErrorDocument 500 /index.php
+ErrorDocument 503 /index.php
+
+#acesso negado
+RewriteEngine On
+RewriteRule ^app/(.*)?$ - [F]
+RewriteRule ^bin/(.*)?$ - [F]
+RewriteRule ^vendor/(.*)?$ - [F]
+RewriteRule ^autoload.php - [F]
+RewriteRule ^composer.json - [F]
+RewriteRule ^composer.lock - [F]
+RewriteRule ^db.php - [F]
+RewriteRule ^make - [F]
+RewriteRule ^todo - [F]
+</IfModule>
