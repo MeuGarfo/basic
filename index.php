@@ -1,6 +1,5 @@
 <?php
 define('ROOT', __DIR__.'/');
-define('VIEW_DIR', ROOT.'app/view/');
 require_once ROOT.'autoload.php';
 require_once ROOT.'vendor/autoload.php';
 if (php_sapi_name() == "cli") {

@@ -4,7 +4,7 @@
     "minimum-stability": "dev",
     "license": "MIT",
     "require": {
-        "basic/view": "^1.0",
+        "basic/view": "1.1.0",
         "vlucas/phpdotenv": "^2.4",
         "catfan/medoo": "^1.4",
         "basic/migration": "1.0.10"

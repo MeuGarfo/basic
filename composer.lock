@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "44386d78e304371da4048f7bd3d38886",
+    "content-hash": "ab9c4f0937b3664d4321091c5fa1bce5",
     "packages": [
         {
             "name": "basic/migration",
@@ -38,16 +38,16 @@
         },
         {
             "name": "basic/view",
-            "version": "1.0.4",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/view.git",
-                "reference": "815c2acbb9adbcb5120060a94c6ed91f55c4a3c0"
+                "reference": "a116ead79b4737340212cddd15e368ad707ad0ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/view/zipball/815c2acbb9adbcb5120060a94c6ed91f55c4a3c0",
-                "reference": "815c2acbb9adbcb5120060a94c6ed91f55c4a3c0",
+                "url": "https://api.github.com/repos/aicoutos/view/zipball/a116ead79b4737340212cddd15e368ad707ad0ab",
+                "reference": "a116ead79b4737340212cddd15e368ad707ad0ab",
                 "shasum": ""
             },
             "type": "library",
@@ -61,7 +61,7 @@
                 "MIT"
             ],
             "description": "Sistema de view básico ",
-            "time": "2017-11-17T11:19:07+00:00"
+            "time": "2017-11-27T18:42:17+00:00"
         },
         {
             "name": "catfan/medoo",
@@ -175,7 +175,7 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
