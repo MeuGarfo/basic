@@ -7,12 +7,7 @@ if (php_sapi_name() == "cli") {
     if (file_exists($filename)) {
         $dotenv = new Dotenv\Dotenv(ROOT.'app');
         $dotenv->load();
-        $dbConfig=[
-            'db_server'=>'localhost',
-            'db_name'=>$_ENV['db_name'],
-            'db_user'=>$_ENV['db_user'],
-            'db_password'=>$_ENV['db_password']
-        ];
+        $dbConfig=require_once ROOT.'db.php';
         $Migration=new Basic\Migration($dbConfig);
     } else {
         die("rename app/example.env to .env");
