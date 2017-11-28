@@ -14,12 +14,12 @@ if (php_sapi_name() == "cli") {
         $dbConfig=require_once ROOT."db.php";
         $Migration=new Basic\Migration($dbConfig);
     } else {
-        die("rename app/example.env to .env");
+        die("mv app/example.env app/.env");
     }
 } elseif (file_exists(ROOT."offline") && php_sapi_name() != "cli") {
     die("maintenance mode");
 } elseif (file_exists(ROOT."app/router.php")) {
     require_once ROOT."app/router.php";
 } else {
-    die("app/router.php not found");
+    die("sh make 4");
 }
