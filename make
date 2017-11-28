@@ -20,6 +20,7 @@ cloneApp()
 	echo "Digite o repositório do app:"
 	read app
 	git clone $app app
+	echo ""
 	echo "app clonado com successo."
 	rm offline
 }
@@ -30,6 +31,7 @@ migrateAll()
 	clear
 	echo "migrando sistema..."
 	$php bin/migrateAll.php
+	echo ""
 	echo "migração concluída."
 	rm offline
 }
