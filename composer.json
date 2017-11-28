@@ -7,6 +7,12 @@
         "basic/view": "1.1.0",
         "vlucas/phpdotenv": "^2.4",
         "catfan/medoo": "^1.4",
-        "basic/migration": "1.0.10"
+        "basic/migration": "2.0.0",
+        "basic/auth": "2.0.9",
+        "basic/upload": "2.0.3",
+        "basic/image": "2.0.3",
+        "basic/sheet": "1.0.2",
+        "basic/download": "1.0.1",
+        "basic/mail": "1.0.2"
     }
 }
