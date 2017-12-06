@@ -13,7 +13,7 @@ if (file_exists($filename)) {
     ];
     $Migration=new Basic\Migration($dbConfig);
 } else {
-    die("rename app/example.env to .env");
+    die("cp example.env app/.env");
 }
 
 $db=new Medoo\Medoo([
