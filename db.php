@@ -1,6 +1,10 @@
 <?php
 require 'vendor/autoload.php';
 
+if(!defined('ROOT')){
+    define('ROOT',__DIR__.'/');
+}
+
 $filename=__DIR__.'/app/.env';
 if (file_exists($filename)) {
     $dotenv = new Dotenv\Dotenv(ROOT.'app');
