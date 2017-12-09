@@ -1,5 +1,6 @@
 <?php
 define("ROOT", __DIR__."/");
+define('APP', ROOT.'app/');
 require_once ROOT."autoload.php";
 if (file_exists(ROOT."vendor/autoload.php")) {
     require_once ROOT."vendor/autoload.php";
