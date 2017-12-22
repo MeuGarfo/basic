@@ -5,9 +5,9 @@ createAsset()
 {
 	touch offline
 	clear
-	echo "criando asset..."
+	echo "criando a pasta asset..."
 	ln -s app/asset/ asset
-	echo "asset criado com sucesso."
+	echo "pasta asset criada com sucesso."
 	rm offline
 }
 
