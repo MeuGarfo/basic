@@ -1,0 +1,17 @@
+{
+  "name": "jquerylight",
+  "homepage": "https://github.com/jquerylight/jquerylight",
+  "authors": [
+    "Anderson Ismael <aicoutos@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "dist/jquerylight.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

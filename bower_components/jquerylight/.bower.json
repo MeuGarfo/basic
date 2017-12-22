@@ -1,0 +1,28 @@
+{
+  "name": "jquerylight",
+  "homepage": "https://github.com/jquerylight/jquerylight",
+  "authors": [
+    "Anderson Ismael <aicoutos@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "dist/jquerylight.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "e89baff19d19d42e5db8d27ac7f51879b98e9bd0"
+  },
+  "_source": "https://github.com/jquerylight/jquerylight.git",
+  "_target": "0.1.0",
+  "_originalSource": "jquerylight",
+  "_direct": true
+}
