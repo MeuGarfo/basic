@@ -1,6 +1,16 @@
 #!/bin/bash
 php=`which php`
 
+createAsset()
+{
+	touch offline
+	clear
+	echo "criando asset..."
+	ln -s app/asset/ asset
+	echo "asset criado com sucesso."
+	rm offline
+}
+
 dropAll()
 {
 	touch offline
