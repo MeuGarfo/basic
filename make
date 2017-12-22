@@ -64,6 +64,7 @@ if [ -z "$1" ]
 		echo "2) limpar todas as tabelas (truncate)"
 		echo "3) apagar todas as tabelas (drop table)"
 		echo "4) clonar app"
+		echo "5) criar a pasta asset"		
 		printf "Opção número "
 		read opt
 	else
@@ -76,5 +77,6 @@ in
 	2) truncateAll ;;
 	3) dropAll ;;
 	4) cloneApp ;;
+	5) createAsset ;;	
 	*) migrateAll ;;
 esac
