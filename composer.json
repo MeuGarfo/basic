@@ -8,7 +8,7 @@
         "catfan/medoo": "1.4.5",
         "basic/migration": "2.0.0",
         "basic/auth": "2.0.9",
-        "basic/upload": "2.0.3",
+        "basic/upload": "dev-master",
         "basic/image": "2.0.3",
         "basic/sheet": "1.0.2",
         "basic/download": "1.0.1",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a51a24b320e9a416dc1170c5116a1d55",
+    "content-hash": "0544822fba254d64ce814ae13c1b9f38",
     "packages": [
         {
             "name": "basic/auth",
@@ -185,7 +185,7 @@
         },
         {
             "name": "basic/upload",
-            "version": "2.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/upload.git",
@@ -626,6 +626,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "basic/upload": 20,
         "suin/php-rss-writer": 20
     },
     "prefer-stable": false,
