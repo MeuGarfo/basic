@@ -13,6 +13,7 @@
         "basic/sheet": "1.0.2",
         "basic/download": "1.0.1",
         "basic/mail": "1.0.2",
-        "basic/view": "1.5.1"
+        "basic/view": "1.5.1",
+        "suin/php-rss-writer": "dev-master"
     }
 }

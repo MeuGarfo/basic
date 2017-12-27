@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d8a71a103c626b8052ad16e8a1a4b52",
+    "content-hash": "a51a24b320e9a416dc1170c5116a1d55",
     "packages": [
         {
             "name": "basic/auth",
@@ -523,6 +523,55 @@
             "time": "2017-09-14T16:47:12+00:00"
         },
         {
+            "name": "suin/php-rss-writer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/suin/php-rss-writer.git",
+                "reference": "523bf3724c09ca521c2f9112ae20197d5db7f5c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/suin/php-rss-writer/zipball/523bf3724c09ca521c2f9112ae20197d5db7f5c5",
+                "reference": "523bf3724c09ca521c2f9112ae20197d5db7f5c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": ">=0.9 <1.0",
+                "phpunit/phpunit": ">=4.8.36 <6.0",
+                "suin/xoopsunit": ">=1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Suin\\RSSWriter": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "suin",
+                    "email": "suinyeze@gmail.com"
+                }
+            ],
+            "description": "Yet another simple RSS writer library for PHP 5.4 or later.",
+            "homepage": "https://github.com/suin/php-rss-writer",
+            "keywords": [
+                "feed",
+                "generator",
+                "php",
+                "rss",
+                "writer"
+            ],
+            "time": "2017-11-04T00:55:07+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -576,7 +625,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "suin/php-rss-writer": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
