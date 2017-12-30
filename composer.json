@@ -14,6 +14,7 @@
         "basic/download": "1.0.1",
         "basic/mail": "1.0.2",
         "basic/view": "1.5.1",
-        "suin/php-rss-writer": "dev-master"
+        "suin/php-rss-writer": "dev-master",
+        "league/glide": "1.2.2"
     }
 }
