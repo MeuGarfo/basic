@@ -1,13 +1,17 @@
 #!/bin/bash
 php=`which php`
 
-createAsset()
+createFolders()
 {
 	touch offline
 	clear
-	echo "criando a pasta asset..."
+	echo "criando as pastas asset e file..."
 	ln -s app/asset/ asset
-	echo "pasta asset criada com sucesso."
+    mkdir file
+    mkdir image
+    chmod 777 -R file
+    chmod 777 -R image
+	echo "pastas asset e file criadas com sucesso."
 	rm offline
 }
 
@@ -63,8 +67,8 @@ if [ -z "$1" ]
 		echo "1) migrar todas as tabelas (default)"
 		echo "2) limpar todas as tabelas (truncate)"
 		echo "3) apagar todas as tabelas (drop table)"
-		echo "4) clonar app"
-		echo "5) criar a pasta asset"		
+		echo "4) clonar app (use a versão ssh)"
+		echo "5) criar as pastas asset, file e image"		
 		printf "Opção número "
 		read opt
 	else
@@ -77,6 +81,6 @@ in
 	2) truncateAll ;;
 	3) dropAll ;;
 	4) cloneApp ;;
-	5) createAsset ;;	
+	5) createFolders ;;	
 	*) migrateAll ;;
 esac
