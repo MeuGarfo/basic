@@ -10,9 +10,9 @@ function autoload($className)
         $fileName  = str_replace('\\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
     }
     $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
-    if(file_exists($fileName)){
+    if (file_exists($fileName)) {
         require $fileName;
-    }else{
+    } else {
         require_once 'vendor/autoload.php';
     }
 }
