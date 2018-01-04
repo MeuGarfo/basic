@@ -1,23 +1,19 @@
 <?php
-function createDB($cfg)
+function createDB()
 {
-    $servername = "localhost";
-    $username = $cfg['user'];
-    $password = $cfg['password'];
-    $db = $cgf['db'];
-    $conn = new mysqli($servername, $username, $password);
+    $conn = new mysqli($_ENV['db_server'], $_ENV['db_user'], $_ENV['db_password']);
     if ($conn->connect_error) {
-        die("erro de conexão:".PHP_EOL.$conn->connect_error.PHP_EOL);
+        die("erro de conexão:".PHP_EOL.$conn->connect_error);
     }
-    $sql = "SHOW DATABASES LIKE  '".$db."'";
+    $sql = "SHOW DATABASES LIKE  '".$_ENV['db_name']."'";
     if ($conn->query($sql)->num_rows === 1) {
-        print 'o banco de dados já existe'.PHP_EOL;
+        print 'o banco de dados já existe';
     } else {
-        $sql = "CREATE DATABASE ".$db;
+        $sql = "CREATE DATABASE ".$_ENV['db_name'];
         if ($conn->query($sql) === true) {
-            echo "db criado com sucesso".PHP_EOL;
+            echo "db criado com sucesso";
         } else {
-            echo "erro ao criar o banco de dados:".PHP_EOL.$conn->error.PHP_EOL;
+            echo "erro ao criar o banco de dados:".PHP_EOL.$conn->error;
         }
         $conn->close();
     }
