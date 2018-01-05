@@ -47,3 +47,4 @@ AddOutputFilterByType DEFLATE image/svg+xml
 
 #mimes
 AddType image/svg+xml .svg
+AddType image/x-icon .ico
