@@ -6,7 +6,7 @@ createFolders()
 	touch offline
 	clear
 	echo "criando as pastas asset e file..."
-	ln -s app/asset/ asset
+	ln -s app/asset asset
     mkdir file
     mkdir image
     chmod 777 -R file

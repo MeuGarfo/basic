@@ -1,5 +1,4 @@
 <?php
-require './index.php';
-require 'createDB.php';
-createDB();
+require_once './index.php';
+require_once 'createDB.php';
 $Migration->migrateAll();

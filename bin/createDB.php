@@ -7,13 +7,15 @@ function createDB()
     }
     $sql = "SHOW DATABASES LIKE  '".$_ENV['db_name']."'";
     if ($conn->query($sql)->num_rows === 1) {
-        print 'o banco de dados já existe';
+        print 'o db já existe...';
+        return true;
     } else {
         $sql = "CREATE DATABASE ".$_ENV['db_name'];
         if ($conn->query($sql) === true) {
-            echo "db criado com sucesso";
+            print 'db criado com sucesso';
+            return true;
         } else {
-            echo "erro ao criar o banco de dados:".PHP_EOL.$conn->error;
+            die("erro ao criar o banco de dados:".PHP_EOL.$conn->error);
         }
         $conn->close();
     }

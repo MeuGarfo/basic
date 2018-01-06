@@ -12,8 +12,11 @@ if (php_sapi_name() == "cli") {
     if (file_exists($filename)) {
         $dotenv = new Dotenv\Dotenv(ROOT."app");
         $dotenv->load();
-        $dbConfig=require_once ROOT."db.php";
-        $Migration=new Basic\Migration($dbConfig);
+        require_once 'bin/createDB.php';
+        if (createDB()) {
+            $dbConfig=require_once ROOT."db.php";
+            $Migration=new Basic\Migration($dbConfig);
+        }
     } else {
         die("cp example.env app/.env");
     }
