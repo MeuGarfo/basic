@@ -1,4 +1,4 @@
-# basic
+# basic/basic
 Micro framework em PHP
 
 ## criar projeto
