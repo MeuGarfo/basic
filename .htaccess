@@ -10,6 +10,9 @@ RewriteRule . /index.php [L]
 #desabilida a listagem de arquivos
 Options -Indexes
 
+#php
+php_value upload_max_filesize 30M
+
 #mensagens de erro
 ErrorDocument 403 /index.php
 ErrorDocument 404 /index.php
