@@ -10,7 +10,7 @@
         "basic/auth": "2.0.9",
         "basic/upload": "dev-master",
         "basic/image": "2.0.3",
-        "basic/sheet": "1.0.2",
+        "basic/sheet": "1.0.3",
         "basic/download": "1.0.1",
         "basic/mail": "1.0.2",
         "basic/view": "1.5.1",

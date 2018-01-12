@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4db053b411dc7d85ddfa3e3a7400cd6",
+    "hash": "1162df343befd88fe71c07efdd9d61c1",
+    "content-hash": "9d6de9a90dc2be9fee55ea35eafaafa3",
     "packages": [
         {
             "name": "basic/auth",
@@ -34,7 +35,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de autenticação",
-            "time": "2017-11-28T18:15:50+00:00"
+            "time": "2017-11-28 18:15:50"
         },
         {
             "name": "basic/download",
@@ -61,7 +62,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de download",
-            "time": "2017-10-21T16:59:02+00:00"
+            "time": "2017-10-21 16:59:02"
         },
         {
             "name": "basic/image",
@@ -91,7 +92,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de manipulação de imagens",
-            "time": "2017-10-21T17:00:28+00:00"
+            "time": "2017-10-21 17:00:28"
         },
         {
             "name": "basic/mail",
@@ -121,7 +122,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de envio de email",
-            "time": "2017-10-21T17:08:45+00:00"
+            "time": "2017-10-21 17:08:45"
         },
         {
             "name": "basic/migration",
@@ -151,20 +152,20 @@
                 "MIT"
             ],
             "description": "Sistema básico de migration",
-            "time": "2017-11-28T18:05:24+00:00"
+            "time": "2017-11-28 18:05:24"
         },
         {
             "name": "basic/sheet",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aicoutos/sheet.git",
-                "reference": "1cf51d9e66b84dc585ab619a890c353d0724f262"
+                "reference": "62372e7bcb8ce566f03a532759003a0e465a6817"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/1cf51d9e66b84dc585ab619a890c353d0724f262",
-                "reference": "1cf51d9e66b84dc585ab619a890c353d0724f262",
+                "url": "https://api.github.com/repos/aicoutos/sheet/zipball/62372e7bcb8ce566f03a532759003a0e465a6817",
+                "reference": "62372e7bcb8ce566f03a532759003a0e465a6817",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +182,7 @@
                 "MIT"
             ],
             "description": "Sistema básico para manipulação de planilhas",
-            "time": "2017-10-21T17:16:16+00:00"
+            "time": "2018-01-12 11:32:22"
         },
         {
             "name": "basic/upload",
@@ -208,7 +209,7 @@
                 "MIT"
             ],
             "description": "Sistema básico de upload",
-            "time": "2017-10-28T19:31:31+00:00"
+            "time": "2017-10-28 19:31:31"
         },
         {
             "name": "basic/view",
@@ -235,7 +236,7 @@
                 "MIT"
             ],
             "description": "Sistema de view básico ",
-            "time": "2017-12-16T18:46:45+00:00"
+            "time": "2017-12-16 18:46:45"
         },
         {
             "name": "box/spout",
@@ -303,7 +304,7 @@
                 "write",
                 "xlsx"
             ],
-            "time": "2017-09-25T19:44:35+00:00"
+            "time": "2017-09-25 19:44:35"
         },
         {
             "name": "catfan/medoo",
@@ -362,7 +363,7 @@
                 "sql",
                 "sqlite"
             ],
-            "time": "2017-06-24T14:43:07+00:00"
+            "time": "2017-06-24 14:43:07"
         },
         {
             "name": "claviska/simpleimage",
@@ -401,7 +402,7 @@
                 }
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
-            "time": "2017-09-12T09:03:56+00:00"
+            "time": "2017-09-12 09:03:56"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -466,7 +467,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-10-07T03:19:56+00:00"
+            "time": "2017-10-07 03:19:56"
         },
         {
             "name": "intervention/image",
@@ -536,7 +537,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-09-21T16:29:17+00:00"
+            "time": "2017-09-21 16:29:17"
         },
         {
             "name": "league/color-extractor",
@@ -590,7 +591,7 @@
                 "image",
                 "palette"
             ],
-            "time": "2016-12-15T09:30:02+00:00"
+            "time": "2016-12-15 09:30:02"
         },
         {
             "name": "league/flysystem",
@@ -598,12 +599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f996962c617ddc71e79ab0f270ea966da796b20d"
+                "reference": "c847ed51212861d746a4c3eed7632b07328a926f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f996962c617ddc71e79ab0f270ea966da796b20d",
-                "reference": "f996962c617ddc71e79ab0f270ea966da796b20d",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/c847ed51212861d746a4c3eed7632b07328a926f",
+                "reference": "c847ed51212861d746a4c3eed7632b07328a926f",
                 "shasum": ""
             },
             "require": {
@@ -674,7 +675,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-12-11T09:46:41+00:00"
+            "time": "2018-01-01 13:00:16"
         },
         {
             "name": "league/glide",
@@ -735,7 +736,7 @@
                 "manipulation",
                 "processing"
             ],
-            "time": "2017-05-09T17:41:49+00:00"
+            "time": "2017-05-09 17:41:49"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -800,7 +801,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-09-14T16:47:12+00:00"
+            "time": "2017-09-14 16:47:12"
         },
         {
             "name": "psr/http-message",
@@ -850,7 +851,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "suin/php-rss-writer",
@@ -899,7 +900,7 @@
                 "rss",
                 "writer"
             ],
-            "time": "2017-11-04T00:55:07+00:00"
+            "time": "2017-11-04 00:55:07"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -949,7 +950,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2016-09-01 10:05:43"
         }
     ],
     "packages-dev": [],
