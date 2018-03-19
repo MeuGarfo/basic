@@ -21,7 +21,7 @@ if (php_sapi_name() == "cli") {
         die("cp example.env app/.env");
     }
 } elseif (file_exists(ROOT."offline") && php_sapi_name() != "cli") {
-    die("maintenance mode");
+    die(include('maintenance.php'));
 } elseif (file_exists(ROOT."app/router.php")) {
     require_once ROOT."app/router.php";
 } else {
