@@ -1,0 +1,218 @@
+/*Tags*/
+a:hover{
+    color:#333;
+}
+hr{
+    border:none;
+    border-top:1px solid gray;
+}
+iframe,img{
+    max-width:calc(100% - 20px);
+}
+input,select{
+    margin:0;
+    margin-bottom:0.5em;
+}
+select{
+    width: calc(100% - 8px);
+}
+small,small a, .hamburguer{
+    color:gray;
+    text-decoration: none;
+}
+/*Classes*/
+.btn-group{
+    margin-bottom:0.5em;
+    text-align: center;
+}
+.btn-group button{
+    display: inline;
+    margin:0;
+    padding: 0.1em;
+}
+.center{
+    margin-bottom: 10px;
+}
+.content iframe,.content img{
+    background:white;
+    padding:10px;
+    text-align:center;
+}
+.content iframe{
+    display:block;
+    margin:0 auto;
+}
+.content img{
+    width: 560px;
+}
+.content a:hover img{
+    background:#f6f6f6;
+}
+.green{
+    color:green;
+}
+.hamburguer{
+    cursor:pointer;
+}
+.hide{
+    display: none;
+}
+.input-block{
+    display: block;
+    width: 100%;
+}
+.left{
+    text-align:left;
+}
+.lista{
+    margin: 0;
+    margin-bottom:1em;
+    padding: 0;
+}
+.lista li{
+    list-style: none;
+    margin-left: 0;
+}
+.lista li:hover{
+    background-color: #f6f6f6;
+    border-radius: 0.5em;
+}
+.lista a{
+    display: block;
+    padding: 0.25em;
+    text-decoration: none;
+}
+.lista h2{
+    margin: 0;
+    padding:0;
+}
+.lista p{
+    color:gray;
+    margin:0;
+}
+.nav a small{
+    color:#333;
+}
+.orange{
+    color:orange;
+}
+.post > .content{
+    margin-top: 1em;
+}
+.post > .content > img, #editor > img{
+    display: block;
+    margin:0 auto;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.red{
+    color:red;
+}
+.responsive{
+    display: block;
+    overflow-x:auto;
+    width: 100%;
+}
+.responsive table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.responsive th,.responsive td {
+    text-align: left;
+}
+.right{
+    text-align:right;
+}
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 0.5em;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+.well,pre,#editor{
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+/*IDs*/
+#editor{
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    margin-top: 1em;
+}
+/*fix by http://browserhacks.com*/
+@supports (-moz-appearance:meterbar) {
+    #editor{
+        width:calc(100% - 38px - 0.7em);
+    }
+}
+/*desktop*/
+@media ( min-width : 1024px) {
+    .mobile{
+        display:none;
+        visibility:hidden;
+    }
+    #menuPrincipal{
+        display: block;
+    }
+}
+/*mobile*/
+@media ( max-width : 1024px) {
+    h1,h2,h3,.left,.lista,.right{
+        text-align: center;
+    }
+    .desktop{
+        display:none;
+        visibility:hidden;
+    }
+    #menuPrincipal{
+        display: none;
+    }
+}
+/*medium*/
+h1,h2,h3,h4{
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-feature-settings: "liga";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.11667px;
+    line-height: 41.6px;
+    margin-bottom: 0px;
+    margin-left: -2.5px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    visibility: visible;
+}
+p,li,td,.content{
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-feature-settings: "liga";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.1833px;
+}
+p {
+    clearleftcolor: rgba(0, 0, 0, 0.8);
+    font-feature-settings: "liga";
+    letter-spacing: -0.0666667px;
+    margin:14px 0;
+    overflow-wrap: break-word;
+    text-rendering: optimizelegibility;
+    visibility: visible;
+}

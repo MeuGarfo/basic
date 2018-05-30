@@ -1,0 +1,149 @@
+/*extra*/
+.center{
+    text-align:center;
+}
+* {
+    line-height:1.5em
+}
+a{
+    color:blue;
+}
+a:hover{
+    color:red;
+}
+body{
+    background:#fff;
+    color:#333;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+}
+button{
+    cursor:pointer;
+    display:block;
+    margin:0.75em auto;
+}
+input[type=email],input[type=password],input[type=text],select,textarea{
+    display:block;
+    width:calc(100% - 2px);
+    width:100%;
+}
+label{
+    cursor:pointer;
+    display:block;
+    font-weight:bold;
+    width:100%;
+}
+/*fix by http://browserhacks.com*/
+@supports (-moz-appearance:meterbar) {
+    input[type=email],input[type=password],input[type=text]{
+        width:calc(100% - 1.5em);
+    }
+    select{
+        margin-left: -1px;
+        width:calc(100% - 0.5em);
+    }    
+    textarea{
+        width:calc(100% - 1em);
+    }
+}
+/*desktop*/
+@media ( min-width : 1024px) {
+    .desktop{
+        display:block;
+        visibility: visible;
+    }
+    .r {
+        width:auto;
+    }
+
+    .r:before,
+    .r:after {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+
+    .r:after {
+        clear: both;
+    }
+    .r > [class*="g"] {
+        display: block;
+        float: left;
+        width: 100%;
+        min-height: 30px;
+        margin-left: 0.75%;
+    }
+
+    .r > [class*="g"]:first-child {
+        margin-left: 0;
+    }
+    .r .g12 {
+        width: 100%;
+    }
+
+    .r .g11 {
+        width: 91.4%;
+    }
+
+    .r .g10 {
+        width: 82.9%;
+    }
+
+    .r .g9 {
+        width: 74.4%;
+    }
+
+    .r .g8 {
+        width: 65.9%;
+    }
+
+    .r .g7 {
+        width: 57.4%;
+    }
+
+    .r .g6 {
+        width: 48.9%;
+    }
+
+    .r .g5 {
+        width: 40.4%;
+    }
+
+    .r .g4 {
+        width: 31.9%;
+    }
+
+    .r .g3 {
+        width: 23.4%;
+    }
+
+    .r .g2 {
+        width: 14.8%;
+    }
+
+    .r .g1 {
+        width: 6.3%;
+    }
+
+    .c {
+        width:100%;
+    }
+}
+/*mobile*/
+@media ( max-width : 1024px) {
+    .desktop{
+        display: none;
+        visibility: hidden;
+    }
+    .c {
+        margin: 0;
+        width: 100%;
+    }
+    [class*="g"] {
+        display: block;
+        float: none;
+        padding: 0 10px;
+        margin: 0 auto;
+        width: auto;
+    }
+}

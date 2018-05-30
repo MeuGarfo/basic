@@ -1,0 +1,23 @@
+{
+  "name": "1k",
+  "authors": [
+    "Anderson Ismael <AiCoutoS@users.noreply.github.com>"
+  ],
+  "description": "CSS grid, formulários e markdown (blockquote, code e tabelas) em menos de 1k ",
+  "main": "dist/1k.css",
+  "keywords": [
+    "css",
+    "grid",
+    "markdown"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html"
+  ]
+}

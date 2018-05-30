@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "homepage": "https://github.com/aicoutos/blog",
+  "authors": [
+    "Anderson Ismael <aicoutos@users.noreply.github.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "1k": "2.0.3"
+  }
+}
